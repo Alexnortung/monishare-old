@@ -1,0 +1,12 @@
+[package]
+name = "monishare"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+edgedb-tokio = "0.3.0"
+axum = { version = "0.6.11", features = ["macros"] }
+tokio = { version = "1.26.0", features = ["full"] }
+serde = { version = "1.0.156", features = ["derive"] }
